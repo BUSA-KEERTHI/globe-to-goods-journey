@@ -1,8 +1,6 @@
-# Globe To Goods Journey
+# ImportNow
 
-Reference website: https://importnow-concept.vercel.app/#home
-
-Replicate the following website from scratch exact same without any change do exact same
+The official website of ImportNow — helping businesses source products from around the world and get them delivered to their door. The site features an interactive 3D globe, a scroll-driven shipment journey, our services and product categories, a quote request form, and a blog with sourcing guides.
 
 This project was built with [Lovable](https://lovable.dev).
 
