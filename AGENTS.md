@@ -28,3 +28,8 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project rules
+- Site styling lives in `src/styles.css` as plain CSS classes ported from the original ImportNow site; Tailwind loads without its base reset because the site ships its own reset.
+- Shared header, footer, icon sprite and post cards live in `src/components/site/`; blog articles are static data in `src/lib/posts.ts` so pages render without a backend.
+- 3D scenes (`src/lib/three/`) are imperative three.js modules started from a page effect via dynamic import and must return a cleanup function.
